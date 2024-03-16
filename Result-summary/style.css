@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.card{
+    display: flex;
+    width: 40%;
+    margin: auto;
+    margin-top: 300px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.result{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 45%;
+}
+.result h3{
+     color:hsl(222, 22%, 70%) ;
+     padding: 20px;
+}
+
+.result h2{
+    color:#fff ;
+    padding: 20px;
+}
+
+.result p{
+    color:hsl(222, 22%, 70%) ;
+}
+
+.score{
+    color: #fff;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),  hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.score h1{
+    font-size: 30px;
+}
+
+.score p{
+    color:hsl(223, 19%, 72%) ;
+}
+
+.summary{
+    padding: 30px;
+    width: 50%;
+    
+}
+
+.summary h3{
+    color: black;
+}
+
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+
+.test img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+
+.test:nth-of-type(1){
+    background-color:  hsl(0, 96%, 96%);
+}
+
+.test:nth-of-type(2){
+    background-color:   hsl(39, 100%, 91%);
+}
+
+.test:nth-of-type(3){
+    background-color: hsl(167, 100%, 90%);
+}
+
+.test:nth-of-type(4){
+    background-color:  hsl(234, 100%, 79%);
+}
+
+.type{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    gap: 160px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.type_info{
+    display: flex;
+    padding-left: 5px;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 10px;
+    background-color: hsl(224, 30%, 27%);
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.link:hover{
+    background-color: hsla(241, 79%, 23%, 0);
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
